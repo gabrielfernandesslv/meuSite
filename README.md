@@ -4,7 +4,10 @@ Gabriel Fernandes
 Thierre Macedo
 
 email: 
-gabriel_gbi22@hotmaill.com
+gaasilva0912@gmail.com
+vitoriasimoes531@gmail.com
+thierregbi28@gmail.com
 
-Descricao 
-gjifdchoighsoigh
+
+Descrição: 
+Sistema de Auxílio aos Dependentes Quimicos 
