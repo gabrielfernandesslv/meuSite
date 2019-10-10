@@ -2,67 +2,51 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title> Login </title>
+		<title> Objetivo </title>
 
-		<script src="../static/_js/javascript.js" type="text/javascript">
-		</script>
-
-        
+		
 		<link  rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='_css/stilo.css') }}">	
 		<link rel="stylesheet" href="{{ url_for('static', filename='_css/bootstrap.css') }}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="{{ url_for('static', filename='_css/bootstap2.css') }}" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 	</head>
-
-	<body id="bodylogin">
-
+	<body id="bodyobj">
 		<font face="Georgia">
-
 		<nav class="navbar navbar-dark bg-dark">
-			<a class="navbar-brand" href="#"> Sistema de auxílio aos Dependentes Químicos </a>
+	  		<a class="navbar-brand" href="#"> Sistema de auxílio aos Dependentes Químicos </a>
 
 			<ul class="nav nav-pills">
 				<li class="nav-item">
-						<a class="nav-link active" href="/"> Home </a>
+					<a class="nav-link active" href="/"> Home </a>
 				</li>
-				<li class="nav-item">
-				    <a class="nav-link" href="/objetivo">Objetivo</a>
-				</li>
-				<li class="nav-item">
-				    <a class="nav-link" href="/form"> Formulário </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/login"> Login </a>
-				</li>
-			</ul>
-		</nav>
 
-		<form name="formlogin" method="post" action="">
-		
-			
+		  		<li class="nav-item">
+		    		<a class="nav-link" href="/objetivo">Objetivo</a>
+		  		</li>
 
-			<div id="div1l" align="center">
-				<h1 class="branco"> LOGIN </h1>
+		 		<li class="nav-item">
+		    		<a class="nav-link" href="/form"> Formulário </a>
+		  		</li>
 
-				<table>
-					<tr>
-						<td>  <label for= "usuario" class="branco"> E-mail: </label> </td>
-						<td>  <input type="text" name="usuario" placeholder=" e-mail" /> </td>
-					</tr>
-					<tr>
-						<td>  <label for= "senha" class="branco"> Senha: </label> </td>
-						<td>  <input type="password" name="senha" placeholder="senha"> </td>
-					</tr>
-				</table>
-				
-				<button name="button" onclick="eeggtt()"> Entrar </button>
-			</div>
-			
-		</form>
+		  		<li class="nav-item">
+		   			<a class="nav-link" href="/login"> Login </a>
+		  		</li>
+		  	</ul>
+	 	</nav>
 
-			<br><br>
 
-			<div class="tabelaindex">
-				<center>
+	 	<div id="divobj">
+	 	<h1 class="branco" align="center"> Objetivo do Sistema </h1>
+
+	 	<h4 class="branco" align="center"> O Sistema de Auxílio aos dependentes químicos, <br> foi proposto por alunos que tem como objetivo <br> de ajudar um ser humano a se encontrar <br> fisicamente e psicológicmanete após as drogas, <br> melhorar a estabilidade na saúde do dependente através de auxílios psicológicos.   </h4>
+
+		</div>
+
+
+		<div class="tabelaindex">
+			<center>
 					<b><h6 class="branco"> Contatos: </h6></b>
 
 			<table class="branco">
@@ -97,8 +81,11 @@
 			<p class="branco"> <a href="http://www.ifbaiano.edu.br/unidades/guanambi/"> IF BAIANO </a></p>
 			<p class="branco"> Profº: Antônio Neto </p>
 
-		</center>
+
+			</center>
 		</div>
-		</font>
-	</body>
+	 	</font>
+
+
+	 </body>
 </html>
