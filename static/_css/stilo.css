@@ -1,0 +1,96 @@
+body {
+	background-image: url(../_img/d.png);
+	background-size: 100%;
+}
+
+
+
+#title {
+	color: black;
+	text-align: center;
+	font-family: TwCenMT;
+}
+
+
+#imagi {
+	height: 100%;
+	width: 100%;
+}
+
+#tabela {
+	
+	font-family: TwCenMT;
+}
+
+.interno {
+	color: black;
+}
+
+#bodyform {
+
+	background-image: url(../_img/d.png);
+	background-size: 145%;
+}
+
+#quadro {
+	background-color: black;
+	margin-right: 360px;
+	margin-left: 360px;
+	margin-top: 150px;
+}
+
+.branco {
+	color: white;
+}
+
+#bodylogin {
+	background-image: url(../_img/d.png);
+	background-size: 140%;
+}
+
+
+#div1l {
+	margin-top: 190px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background-color: black;
+}
+
+#cabecalho {
+	background-color: black;
+}
+
+#divobj {
+	background-color: black;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 150px;
+
+}
+
+#bodyobj {
+	background-image: url(../_img/d.png);
+	background-size: 130%;
+}
+
+#principal {
+	background-color: black;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.tabelaindex {
+	background-color: black;
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 0px;
+
+
+}
+
+td{
+	border-style: solid;
+	padding:5px;
+}
