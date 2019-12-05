@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-
-	<head>
-		<meta charset="utf-8">
-		<title> Objetivo </title>
-
-		
-		<link  rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='_css/stilo.css') }}">	
-		<link rel="stylesheet" href="{{ url_for('static', filename='_css/bootstrap.css') }}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<script src="{{ url_for('static', filename='_css/bootstap2.css') }}" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-
-	</head>
-	<body id="bodyobj">
-		<font face="Georgia">
-		<nav class="navbar navbar-dark bg-dark">
-	  		<a class="navbar-brand" href="#"> Sistema de auxílio aos Dependentes Químicos </a>
-
-			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link active" href="/"> Home </a>
-				</li>
-
-		  		<li class="nav-item">
-		    		<a class="nav-link" href="/objetivo">Objetivo</a>
-		  		</li>
-
-		 		<li class="nav-item">
-		    		<a class="nav-link" href="/form"> Formulário </a>
-		  		</li>
-
-		  		<li class="nav-item">
-		   			<a class="nav-link" href="/login"> Login </a>
-		  		</li>
-		  	</ul>
-	 	</nav>
-
+{% extends 'base.html' %}
+	
+{% block conteudo %}
 
 	 	<div id="divobj">
 	 	<h1 class="branco" align="center"> Objetivo do Sistema </h1>
@@ -45,47 +10,10 @@
 		</div>
 
 
-		<div class="tabelaindex">
-			<center>
-					<b><h6 class="branco"> Contatos: </h6></b>
-
-			<table class="branco">
-
-			<tr>
-				<td></td>	
-				<td> <h6>   Érica Vitória Simões Bezerrra   </h6> </td>
-				<td> <h6>   Gabriel Fernandes Silva   </h6> </td>
-				<td> <h6>   Thierre Guimarães Fernandes Macedo   </h6> </td>
-			</tr>
-			<tr>
-				<td> E-mail:  </td>
-				<td> <h6> vitoriasimoes531@gmail.com </h6> </td>
-				<td> <h6> gaasilva0912@gmail.com </h6> </td>
-				<td> <h6> thierregbi28@gmail.com </h6> </td>
-			</tr>
-			<tr>
-				<td> Telefone: </td>
-				<td> (77) 99819-4995 </td>
-				<td> (77) 99944-0912</td>
-				<td> (77) 99918-1602</td>
-			</tr>
-			<tr>
-				<td> Facebook: </td>
-				<td> <a href="www.facebook.com/"> Érica Vitória </a></td>
-				<td> <a href="www.facebook.com/"> Gabriel Fernandes </a></td>
-				<td> <a href="www.facebook.com/"> Thierre Macedo </a></td>
-			</tr>
-			</table>
-
-			<b><h6 class="branco"> Créditos:  </h6></b>
-			<p class="branco"> <a href="http://www.ifbaiano.edu.br/unidades/guanambi/"> IF BAIANO </a></p>
-			<p class="branco"> Profº: Antônio Neto </p>
-
+	
 
 			</center>
-		</div>
+		
 	 	</font>
 
-
-	 </body>
-</html>
+{% endblock conteudo %}

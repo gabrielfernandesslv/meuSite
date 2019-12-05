@@ -33,7 +33,7 @@ body {
 }
 
 #quadro {
-	background-color: black;
+	background-color: #263238;
 	margin-right: 360px;
 	margin-left: 360px;
 	margin-top: 150px;
@@ -53,15 +53,15 @@ body {
 	margin-top: 190px;
 	margin-left: 500px;
 	margin-right: 500px;
-	background-color: black;
+	background-color: #263238;
 }
 
 #cabecalho {
-	background-color: black;
+	background-color: #263238;
 }
 
 #divobj {
-	background-color: black;
+	background-color: #263238;
 	margin-right: 250px;
 	margin-left: 250px;
 	margin-top: 150px;
@@ -74,14 +74,14 @@ body {
 }
 
 #principal {
-	background-color: black;
+	background-color: #263238;
 	margin-right: 150px;
 	margin-left: 150px;
 	margin-top: 50px;
 }
 
 .tabelaindex {
-	background-color: black;
+	background-color: #263238;
 	margin-top: 120px;
 	margin-left: 200px;
 	margin-right: 200px;
