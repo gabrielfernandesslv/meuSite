@@ -4,7 +4,7 @@
 
 <form name="form" method="post" action="">
 
-	<center>
+	<center>																																																						
 
 
 
@@ -14,9 +14,10 @@
 
 	<h1 class="branco"> CADASTRO </h1>
 
-	<form method="POST">
+<!--<form method="POST">-->
 
-		{{ form.csrf_token }}
+		{{ form.hidden_tag() }}
+		{{form.crsf_token}}
 		
 		<table>
 			<tr> 
@@ -65,7 +66,7 @@
 
 		{{ form.botao }}
 
-	</form>	
+	<!--</form>	-->
 				<br><br>
 
 
